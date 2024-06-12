@@ -74,3 +74,22 @@ running 0 tests
 test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
 
 ```
+
+1. Run updated tests:
+
+```shell
+➜  hello git:(main) cargo test
+    Finished test [unoptimized + debuginfo] target(s) in 0.03s
+     Running unittests src/main.rs (target/debug/deps/hello-c5e8b66e27416630)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cli.rs (target/debug/deps/cli-e6548c23760cf530)
+
+running 1 test
+test runs ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.12s
+```
